@@ -9,3 +9,10 @@ Parquet or a db table)
 Most of the time, the format is weakly typed and without explicit schema (e.g. csv and json), in
 which case some normalization and cleaning is required
 In many data science teams, data magically appears - because the engineer loads it.
+
+
+### Installation 
+```
+$ pip install 'dlt[lancedb]==0.5.1a0'
+$ pip install sentence-transformers
+```
